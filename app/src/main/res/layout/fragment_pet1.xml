@@ -1,0 +1,81 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nextpage.hipetdemo.fragment.Pet1Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/main_pet_top_margin">
+
+            <com.jackandphantom.circularimageview.CircleImage
+                android:id="@+id/circleImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:src="@drawable/pet_1_main" />
+
+            <com.jackandphantom.circularprogressbar.CircleProgressbar
+                android:id="@+id/circleProgressbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cpb_backgroundProgressColor="#ffdcdc"
+                app:cpb_backgroundProgressWidth="30"
+                app:cpb_foregroundProgressColor="#ff7373"
+                app:cpb_foregroundProgressWidth="30" />
+
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/mTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/distanceTextView"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/distanceTextView"
+            android:paddingBottom="10dp"
+            android:text="m"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/noSignalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="신호없음"
+            android:textSize="40sp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/included_bottom_menu"
+            layout="@layout/layout_bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="80dp" />
+
+
+    </RelativeLayout>
+
+
+</layout>
+

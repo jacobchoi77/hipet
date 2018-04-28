@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">하이펫</string>
+    <string name="action_change_to_receive_mode">수신 모드로 변경</string>
+    <string name="action_change_to_normal_mode">일반 모드로 변경</string>
+    <string name="action_pet_edit">펫 정보 변경하기</string>
+
+    <string name="noti_service_title">하이펫 비콘 알리미 서비스가 실행중입니다. </string>
+    <string name="noti_service_content">이 서비스를 중지하려면 아래 중지 버튼을 눌러주세요.</string>
+    <string name="stop">중지</string>
+
+    <string name="noti_out_title">당신의 펫이 범위 밖을 나갔습니다.</string>
+    <string name="noti_in_title">당신의 펫이 범위 안으로 들어왔습니다.</string>
+    <string name="noti_in_title_popup">분실 보고된 펫이 범위 안으로 들어왔습니다.</string>
+    <string name="noti_content">클릭해주세요.</string>
+
+    <string name="dialog_missing_report">분실 신고 하시겠습니까? </string>
+
+    <string name="title_activity_find">같이 찾아요</string>
+    <string name="find">같이 찾아요</string>
+
+    <string name="exit_msg">\'이전\' 버튼을 한 번 더 누르면 종료 됩니다.</string>
+
+    <string name="error_try_again">다시 시도해 주세요.</string>
+
+    <string name="report_date">분실일: </string>
+</resources>

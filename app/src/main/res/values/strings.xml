@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiPet</string>
+    <string name="action_change_to_receive_mode">Change To Receive Mode</string>
+    <string name="action_change_to_normal_mode">Chagne To Normal Mode</string>
+    <string name="action_pet_edit">Edit Pet data</string>
+
+    <string name="noti_service_title">HiPet Beacon Alarm Service is working... </string>
+    <string name="noti_service_content">Press stop button to stop this service.</string>
+    <string name="stop">Stop</string>
+
+    <string name="noti_title">HiPet Beacon Alarm Service</string>
+    <string name="noti_out_title">Your pet is out of your hand</string>
+    <string name="noti_in_title">Your pet is in of your hand</string>
+
+    <string name="noti_in_title_popup">Other pet is in of your hand</string>
+    <string name="noti_content">Click</string>
+
+    <string name="dialog_missing_report">Report missing? </string>
+    <string name="title_activity_find">Let\'s Find!</string>
+
+    <string name="find">Let\'s Find!</string>
+    <string name="exit_msg">Please click BACK again to exit</string>
+
+    <string name="error_try_again">Error~ Try again~~</string>
+
+    <string name="report_date">Report Date: </string>
+
+</resources>

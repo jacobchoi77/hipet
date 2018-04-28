@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/leftMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <com.jackandphantom.circularimageview.CircleImage
+                android:id="@+id/circleImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오다애"
+                android:textColor="@android:color/primary_text_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="torisarang@gmail.com"
+                android:textColor="@android:color/primary_text_dark" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/myPetButton"
+            style="@style/MenuTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_pets_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:onClick="onMyPetClick"
+            android:text="나의 펫" />
+
+        <Button
+            android:id="@+id/findButton"
+            style="@style/MenuTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_find_in_page_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:onClick="onFindClick"
+            android:text="@string/find" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            style="@style/MenuTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:text="About" />
+
+        <Button
+            android:id="@+id/noticeButton"
+            style="@style/MenuTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_help_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:text="Help" />
+
+
+    </LinearLayout>
+</layout>
+
